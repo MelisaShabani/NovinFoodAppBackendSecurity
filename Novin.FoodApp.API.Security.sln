@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.API.Security", "Novin.FoodApp.API.Security\Novin.FoodApp.API.Security.csproj", "{C9B74574-3A8E-4424-8A50-CD1E5B8934CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{826B31F4-1F54-4B6B-9EC3-5327A130E7E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{AC1FE4CA-828D-48EE-8A71-2966D156B4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-API", "3-API", "{DAA76EB7-D0F9-4769-A20E-51C282EE65EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.Core", "Novin.FoodApp.Core\Novin.FoodApp.Core.csproj", "{F7B8E1D2-60B4-448E-87C3-D04131C3F450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.Infrastructure", "Novin.FoodApp.Infrastructure\Novin.FoodApp.Infrastructure.csproj", "{2C43FA95-8DA4-4743-9D78-229BC7757EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B74574-3A8E-4424-8A50-CD1E5B8934CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B74574-3A8E-4424-8A50-CD1E5B8934CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B74574-3A8E-4424-8A50-CD1E5B8934CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B74574-3A8E-4424-8A50-CD1E5B8934CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B8E1D2-60B4-448E-87C3-D04131C3F450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B8E1D2-60B4-448E-87C3-D04131C3F450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B8E1D2-60B4-448E-87C3-D04131C3F450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B8E1D2-60B4-448E-87C3-D04131C3F450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C43FA95-8DA4-4743-9D78-229BC7757EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C43FA95-8DA4-4743-9D78-229BC7757EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C43FA95-8DA4-4743-9D78-229BC7757EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C43FA95-8DA4-4743-9D78-229BC7757EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9B74574-3A8E-4424-8A50-CD1E5B8934CA} = {DAA76EB7-D0F9-4769-A20E-51C282EE65EF}
+		{F7B8E1D2-60B4-448E-87C3-D04131C3F450} = {826B31F4-1F54-4B6B-9EC3-5327A130E7E2}
+		{2C43FA95-8DA4-4743-9D78-229BC7757EEA} = {AC1FE4CA-828D-48EE-8A71-2966D156B4C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {111ED3A7-E3AA-4DB3-87B1-1391269A9F90}
+	EndGlobalSection
+EndGlobal
